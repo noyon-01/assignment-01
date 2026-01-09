@@ -192,14 +192,132 @@ nav button:hover {
 }
 /* notes section style ends here */
 
-/* header section style starts here */
-/* header section style ends here */
+/* brain section style starts here */
+.brain-section {
+    max-width: 1360px;
+    margin: 0 auto 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
 
-/* header section style starts here */
-/* header section style ends here */
+.brain-section .brain-img img {
+    width: 600px;
+}
 
-/* header section style starts here */
-/* header section style ends here */
+.brain-content p:nth-child(1){
+    font-size: 16px;
+    color: #469165;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
 
-/* header section style starts here */
-/* header section style ends here */
+.brain-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.brain-content p:nth-child(3) {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    padding-right: 170px;
+    margin: 16px 0 40px;
+}
+
+.brain-content ul li {
+    list-style: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+/* brain section style ends here */
+
+/* early section style starts here */
+.early-section {
+    max-width: 1360px;
+    margin: 0 auto 120px;
+    background-color: #F7F6F2;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.early-section .early-section-content h1 {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 80px 0 16px;
+}
+
+.early-section .early-section-content p:nth-child(2) {
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    padding: 0 375px;
+}
+
+.early-section .early-section-content p:nth-child(4) {
+    font-size: 16px;
+    color: #627382;
+    padding-bottom: 80px;
+}
+
+.early-section .early-section-content button {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16px;
+    margin-bottom: 180px;
+    border: none;
+    border-radius: 4px;
+    background-color: #469165;
+    color: #ffffff;
+    margin: 24px 0 16px;
+}
+/* early section style ends here */
+
+/* footer section style starts here */
+footer {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #001931;
+    color: white;
+    padding: 120px 120px 30px;
+}
+
+.footer-up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-up .footer-logo img {
+    width: 128px;
+}
+
+.footer-up .footer-social p {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.social-icon a{
+    text-decoration: none;
+    color: #000000;
+    background-color: white;
+    padding: 4px;
+    border-radius: 100%;
+    margin-right: 8px;
+}
+
+.border {
+    margin: 50px 0 20px;
+    border: 1px solid rgba(65, 65, 78, 0.521);
+}
+
+.footer-down {
+    
+}
+/* footer section style ends here */
+
