@@ -73,7 +73,7 @@ nav button:hover {
 
 /* hero section style starts here */
 .hero-section {
-  background-image: url(assets/hero-bg.png);
+  background-image: url(/assets/hero-bg.png);
   max-width: 1600px;
   margin: 0 auto;
   text-align: center;
